@@ -1,8 +1,4 @@
-  # README Generator
-  # README Generator
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
-  [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # a
   
   ## Table of Contents
   1. [Project Description](#description)
@@ -14,26 +10,26 @@
   7. [Questions](#questions)
   
   ## Project Description
-  Users will be able to input data and generate a README.md file.
+  a
   
   ## Installation
-  Go to my github repo and clone my code and run 'node index' in the terminal.
+  a
   
   ## Usage
-  Answer the questions.
+  a
   
   ### License
   ISC
   
   ### Contributors
-  Jo and Tanmay
+  a
   
   #### Tests
-  Yes
+  a
   
   #### Questions
-  Email me with the subject as 'README Generator'
+  a
 
   #### Contact Me
-  * GitHub Profile: https://github.com/xj96
-  * Email Address: xavierejackson20@gmail.com
+  * GitHub Profile: https://github.com/a
+  * Email Address: a
