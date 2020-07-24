@@ -35,8 +35,9 @@ function generateMarkdown(data) {
     
     #### Questions
     ${data.questions}
+
     #### Contact Me
-    * GitHub Profile: https://github.com/${data.username}
+    * GitHub Profile: https://github.com/${data.github}
     * Email Address: ${data.email}
   `;
 }

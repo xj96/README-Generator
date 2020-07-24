@@ -1,5 +1,5 @@
 
-    # Whateber
+    # README Generator
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
     [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -14,26 +14,26 @@
     7. [Questions](#questions)
     
     ## Project Description
-    deez
+    Users will be able to input data via the terminal and generate a professional README.md file.
     
     ## Installation
-    undefined
+    Users can navigate to this repository and clone my code and run it in a terminal that has node installed.
     
     ## Usage
-    idk
+    Answer the questions.
     
     ### License
     ISC
     
     ### Contributors
-    undefined
+    Jo and Tanmay
     
     #### Tests
-    yes
+    Yes
     
     #### Questions
-    undefined
+    If you have any questions email me.
     #### Contact Me
     * GitHub Profile: https://github.com/undefined
-    * Email Address: asdfghj
+    * Email Address: xavierejackson20@gmail.com
   

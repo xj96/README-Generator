@@ -7,27 +7,22 @@ const inquirer = require("inquirer");
 //add table of contents and links
 const questions = [{
     type: "input",
-    message: "What is the title?",
+    message: "What is the title of the project?",
     name: "title",
 },
 {
     type: "input",
-    message: "write desciprtion of project",
+    message: "Write the desciprtion of the project.",
     name: "description",
 },
-// {
-//   type: "input",
-//   message: "what are the table of contents",
-//   name: "TC",
-// },
 {
     type: "input",
-    message: "what type of installation",
-    name: "installation",
+    message: "How do we install your project?",
+    name: "install",
 },
 {
     type: "input",
-    message: "how to use project",
+    message: "How do we use your project?",
     name: "usage",
 },
 {
@@ -38,29 +33,29 @@ const questions = [{
 },
 {
     type: "input",
-    message: "who contributed",
-    name: "contribution",
+    message: "Who contributed?",
+    name: "contributors",
 },
 {
     type: "input",
-    message: "did you run any tests",
+    message: "Did you run any tests?",
     name: "tests",
 },
 {
     type: "input",
-    message: "what is your Github username",
+    message: "What is your Github username?",
     name: "github",
 },
 {
     type: "input",
-    message: "and lastly, what is your email",
+    message: "What is your email?",
     name: "email",
 },
-    // {
-    //   type: "input",
-    //   message: "Questions?",
-    //   name: "question",
-    // },
+{
+    type: "input",
+    message: "Questions?",
+    name: "questions",
+},
 ];
 // function to append README file
 function writeToFile(fileName, data) {
