@@ -1,11 +1,22 @@
 {
-  "name": "generator",
+  "name": "static-site",
   "version": "1.0.0",
-  "description": "Assignment: Good README Generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xj96/README-Generator"
+  },
+  "bugs": {
+    "url": "https://github.com/xj96/README-Generator"
+  },
+  "homepage": "",
+  "description": ""
 }

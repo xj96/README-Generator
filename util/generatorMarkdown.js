@@ -1,5 +1,7 @@
-
-    # Whateber
+// function to generate markdown for README
+function generateMarkdown(data) {
+  return `
+    # ${data.title}
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
     [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -14,26 +16,29 @@
     7. [Questions](#questions)
     
     ## Project Description
-    deez
+    ${data.description}
     
     ## Installation
-    undefined
+    ${data.install}
     
     ## Usage
-    idk
+    ${data.usage}
     
     ### License
-    ISC
+    ${data.license}
     
     ### Contributors
-    undefined
+    ${data.contributors}
     
     #### Tests
-    yes
+    ${data.tests}
     
     #### Questions
-    undefined
+    ${data.questions}
     #### Contact Me
-    * GitHub Profile: https://github.com/undefined
-    * Email Address: asdfghj
-  
+    * GitHub Profile: https://github.com/${data.username}
+    * Email Address: ${data.email}
+  `;
+}
+
+module.exports = generateMarkdown;
