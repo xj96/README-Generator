@@ -1,6 +1,14 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `
+  const template = `  # ${data.title}`;
+  if (data.license == "MIT") {
+    template += `\n  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  } else if (data.license == "Zlib") {
+    template += `\n [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)`;
+  } else if (data.license == "Apache") {
+    template += `\n [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+  };
+  return template + `
     # ${data.title}
     [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
