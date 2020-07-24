@@ -1,4 +1,4 @@
-  # a
+  # README Generator
   
   ## Table of Contents
   1. [Project Description](#description)
@@ -10,26 +10,26 @@
   7. [Questions](#questions)
   
   ## Project Description
-  a
+  Users will be able to input data and generate a README.md file.
   
   ## Installation
-  a
+  Go to my GitHub repo and clone my code, then run 'node index' in the terminal.
   
   ## Usage
-  a
+  Answer the questions.
   
   ### License
   ISC
   
   ### Contributors
-  a
+  Jo and Tanmay
   
   #### Tests
-  a
+  Yes
   
   #### Questions
-  a
+  Email me with the subject as 'README Generator'
 
   #### Contact Me
-  * GitHub Profile: https://github.com/a
-  * Email Address: a
+  * GitHub Profile: https://github.com/xj96
+  * Email Address: xavierejackson20@gmail.com
