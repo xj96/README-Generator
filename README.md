@@ -14,13 +14,13 @@
     7. [Questions](#questions)
     
     ## Project Description
-    Users will be able to input data via the terminal and generate a professional README.md file.
+    Users will be able to input data and generate a readme file.
     
     ## Installation
-    Users can navigate to this repository and clone my code and run it in a terminal that has node installed.
+    Go to my repository, clone my code, and type node index in the terminal.
     
     ## Usage
-    Answer the questions.
+    We answer the questions.
     
     ### License
     ISC
@@ -32,7 +32,7 @@
     Yes
     
     #### Questions
-    If you have any questions email me.
+    Email me with the subject as README Generator
 
     #### Contact Me
     * GitHub Profile: https://github.com/xj96
